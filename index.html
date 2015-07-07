@@ -10,9 +10,10 @@
 
     <link rel="icon" href="favicon.ico">
 
-    <title>Non-responsive Template for Bootstrap</title>
+    <title>NimbleDroid</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="plgins/fontawsome/css/font-awesome.css"/>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -44,7 +45,7 @@
         <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
         <div id="navbar">
             <ul class="nav navbar-nav pull-right">
-                <li class="active"><a href="#">Upload APK</a></li>
+                <li class="active"><span class="uploadSmallIcon"></span><a href="#">Upload APK</a></li>
                 <li><a href="#about">Sign up/Log in</a></li>
                 <li><a href="#contact">Pricing</a></li>
             </ul>
@@ -55,32 +56,235 @@
 
 <div class="" id="fullpage">
 
+<div class="section nimble" id="section0">
+    <div class="container heroWrapper">
+        <div class="row full-height heroBGImage">
+            <div class="col-xs-7 col-xs-offset-5 full-height">
+                <div class="verticalCenterWrapper">
+                    <div class="verticalCenter">
+                        <h1>
+                            Build fluid apps, boost user engagement
+                        </h1>
 
-    <div class="section " id="section0">
-        <h1>fullPage.js</h1>
+                        <p>
+                            Introducing NimbleDroid — an easy-to-use and powerful Android profiler to help teams
+                            deliver a fluid user experience.
+                        </p>
 
-        <p>CSS3</p>
-        <img src="imgs/fullPage.png" alt="fullPage"/>
-    </div>
-    <div class="section" id="section1">
-        <div class="intro">
-            <h1>Speed on mobile</h1>
-
-            <p>
-                If CSS3 transforms are supported (e.g. on mobile devices) they will be used for animations, usually a
-                good
-                choice if the animation on mobile devices is slow.
-            </p>
+                        <div class="heroButtonWrap">
+                            <button class="btn btn-white">Upload your APK!</button>
+                            <button class="btn btn-darkRed">learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="section" id="section2">
-        <div class="intro">
-            <h1>No CSS3? No problem!</h1>
-
-            <p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
+    <div class="highLight">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-sm-offset-1">
+                    <div class="stepIconGroup" id="stepIcon1">
+                        <img src="img/home/Icon1.png" alt="Step1" width="54" height="55"/>
+                        UPLOAD
+                    </div>
+                    <div class="stepIconGroup" id="stepIcon2">
+                        <img src="img/home/Icon2.png" alt="Step2" width="54" height="55"/>
+                        analyse
+                    </div>
+                    <div class="stepIconGroup" id="stepIcon3">
+                        <img src="img/home/Icon3.png" alt="Step3" width="54" height="55"/>
+                        optimize
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <p>Sluggish apps frustrate your users.  We’re here to help.  Upload your APK, and we’ll run it
+                        in a monitored environment to analyze its performance, identify its bottlenecks, and
+                        recommend fixes.</p>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 
+<div class="section nimble" id="section1">
+    <div class="container featureSection1">
+        <div class="row full-height">
+            <div class="col-xs-6 full-height">
+
+                <div class="verticalCenterWrapper ">
+                    <div class="verticalCenter">
+                        <h1>Quantify your app’s startup performance</h1>
+                        <ul class="featureList">
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Zero Installation or coding. Just upload your app and we’ll take it from here.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    See where your app stands against top apps and competitor apps.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Monitor performance across versions to track improvements and avoid regressions.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 full-height no-padding">
+
+                <div class="verticalCenterWrapper">
+                    <div class="verticalCenter">
+                        <img src="img/home/IMG1stSection.png" alt="" width="115%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section nimble" id="section2">
+    <div class="container featureSection2">
+        <div class="row full-height">
+
+            <div class="col-xs-6 full-height">
+
+                <div class="verticalCenterWrapper">
+                    <div class="verticalCenter">
+                        <img src="img/home/IMG2ndSection.png" alt="" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 full-height">
+
+                <div class="verticalCenterWrapper ">
+                    <div class="verticalCenter">
+                        <h1>Leave tedious performance diagnosis to us</h1>
+                        <ul class="featureList">
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Understand bottlenecks that cause your app to be non-responsive and slow.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Find out how 3rd party SDKs affect your app’s performance.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Follow our suggestions to speed up your app in a matter of minutes
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section nimble" id="section3">
+    <div class="container featureSection3">
+        <div class="row full-height">
+            <div class="col-xs-6 full-height">
+                <div class="verticalCenterWrapper ">
+                    <div class="verticalCenter">
+                        <h1>Gain insights into your app’s performance</h1>
+                        <ul class="featureList">
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Search. Zoom. Filter. Everything you need to interpret performance data in one
+                                    place.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    See the complete execution history of your app’s startup.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="listImg"></i>
+
+                                <p>
+                                    Drill down as deeply as you want into stack traces.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 full-height no-padding">
+
+                <div class="verticalCenterWrapper">
+                    <div class="verticalCenter">
+                        <img src="img/home/IMG3rdSection.png" alt="" width="115%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer nimble" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/home/Footerlogo.png" alt="" height="38" width="258"/>
+            </div>
+            <div class="col-sm-8 text-right">
+                <ul class="list-inline">
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Docs</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Join us</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">DMCA</a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>588 Broadway, Suite 503</p>
+
+                <p>New York, NY 10012</p>
+            </div>
+            <div class="col-sm-4">
+                <p>© NimbleDroid 2015</p>
+
+                <p>Design & Artwork: www.svenkils.com</p>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <!-- /container -->
 
@@ -96,12 +300,12 @@
 <script type="text/javascript" src="plgins/fullPage/jquery.fullPage.js"></script>
 <script type="text/javascript" src="plgins/fullPage/examples/examples.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
-            css3: true
-        });
-    });
+    //    $(document).ready(function () {
+    //        $('#fullpage').fullpage({
+    ////            sectionsColor: ['#ff0000', '#ffffff', '#ffffff'],
+    //            css3: true
+    //        });
+    //    });
 </script>
 </body>
 </html>
