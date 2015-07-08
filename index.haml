@@ -1,0 +1,185 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+        %meta{:content => "", :name => "description"}
+          %meta{:content => "", :name => "author"}
+            %link{:href => "favicon.ico", :rel => "icon"}
+              %title NimbleDroid
+              %link{:href => "plugins/fontawsome/css/font-awesome.css", :rel => "stylesheet"}/
+              %link{:href => "assets/css/bootstrap.min.css", :rel => "stylesheet"}
+                %link{:href => "assets/css/home.css", :rel => "stylesheet"}
+  %body
+    %nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          %a.navbar-brand{:href => "#"}
+            %img{:alt => "", :src => "img/home/logo.png"}/
+        #navbar
+          %ul.nav.navbar-nav.pull-right
+            %li.active
+              %span.uploadSmallIcon
+              %a{:href => "#"} Upload APK
+            %li
+              %a{:href => "#"} Sign up/Log in
+            %li
+              %a{:href => "#"} Pricing
+    #fullpage
+      #section0.section.nimble
+        .container.heroWrapper
+          .row.full-height.heroBGImage
+            .col-xs-7.col-xs-offset-5.full-height
+              .verticalCenterWrapper
+                .verticalCenter
+                  %h1{"data-sr" => "wait 0.2s, enter right, hustle 20px"}
+                    Build fluid apps, boost user engagement
+                  %p{"data-sr" => "wait 0.3s, enter right, hustle 20px"}
+                    Introducing NimbleDroid — an easy-to-use and powerful Android profiler to help teams
+                    deliver a fluid user experience.
+                  .heroButtonWrap{"data-sr" => "wait 0.4s, enter right, hustle 20px"}
+                    %button.btn.btn-white Upload your APK!
+                    %button.btn.btn-darkRed learn more
+        .highLight
+          .container
+            .row
+              .col-xs-4.col-sm-offset-1
+                #stepIcon1.stepIconGroup
+                  %img{:alt => "Step1", "data-sr" => "wait 0.2s, enter left, hustle 20px", :height => "55", :src => "img/home/Icon1.png", :width => "54"}/
+                  UPLOAD
+                #stepIcon2.stepIconGroup
+                  %img{:alt => "Step2", "data-sr" => "wait 0.3s, enter left, hustle 20px", :height => "55", :src => "img/home/Icon2.png", :width => "54"}/
+                  analyse
+                #stepIcon3.stepIconGroup
+                  %img{:alt => "Step3", "data-sr" => "wait 0.4s, enter left, hustle 20px", :height => "55", :src => "img/home/Icon3.png", :width => "54"}/
+                  optimize
+              .col-xs-6{"data-sr" => "wait 0.5s, enter right, hustle 20px"}
+                %p
+                  Sluggish apps frustrate your users.  We’re here to help.  Upload your APK, and we’ll run it
+                  in a monitored environment to analyze its performance, identify its bottlenecks, and
+                  recommend fixes.
+      #section1.section.nimble
+        .container.featureSection1
+          .row.full-height
+            .col-xs-6.full-height
+              .verticalCenterWrapper
+                .verticalCenter
+                  %h1{"data-sr" => "wait 0.3s, enter left, hustle 20px"} Quantify your app’s startup performance
+                  %ul.featureList
+                    %li{"data-sr" => "wait 0.4s, enter left, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Zero Installation or coding. Just upload your app and we’ll take it from here.
+                    %li{"data-sr" => "wait 0.5s, enter left, hustle 20px"}
+                      %i.listImg
+                      %p
+                        See where your app stands against top apps and competitor apps.
+                    %li{"data-sr" => "wait 0.6s, enter left, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Monitor performance across versions to track improvements and avoid regressions.
+            .col-xs-6.full-height.no-padding{"data-sr" => "wait 0.2s, enter right, hustle 20px"}
+              .verticalCenterWrapper
+                .verticalCenter
+                  %img{:alt => "", :height => "auto", :src => "img/home/IMG1stSection.png", :width => "115%"}/
+      #section2.section.nimble
+        .container.featureSection2
+          .row.full-height
+            .col-xs-6.full-height{"data-sr" => "wait 0.2s, enter left, hustle 20px"}
+              .verticalCenterWrapper
+                .verticalCenter
+                  %img{:alt => "", :height => "auto", :src => "img/home/IMG2ndSection.png", :width => "100%"}/
+            .col-xs-6.full-height
+              .verticalCenterWrapper
+                .verticalCenter
+                  %h1{"data-sr" => "wait 0.3s, enter left, hustle 20px"} Leave tedious performance diagnosis to us
+                  %ul.featureList
+                    %li{"data-sr" => "wait 0.4s, enter right, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Understand bottlenecks that cause your app to be non-responsive and slow.
+                    %li{"data-sr" => "wait 0.5s, enter right, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Find out how 3rd party SDKs affect your app’s performance.
+                    %li{"data-sr" => "wait 0.6s, enter right, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Follow our suggestions to speed up your app in a matter of minutes
+      #section3.section.nimble
+        .container.featureSection3
+          .row.full-height
+            .col-xs-6.full-height
+              .verticalCenterWrapper
+                .verticalCenter
+                  %h1{"data-sr" => "wait 0.3s, enter left, hustle 20px"} Gain insights into your app’s performance
+                  %ul.featureList
+                    %li{"data-sr" => "wait 0.4s, enter left, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Search. Zoom. Filter. Everything you need to interpret performance data in one
+                        place.
+                    %li{"data-sr" => "wait 0.5s, enter left, hustle 20px"}
+                      %i.listImg
+                      %p
+                        See the complete execution history of your app’s startup.
+                    %li{"data-sr" => "wait 0.6s, enter left, hustle 20px"}
+                      %i.listImg
+                      %p
+                        Drill down as deeply as you want into stack traces.
+            .col-xs-6.full-height.no-padding{"data-sr" => "wait 0.2s, enter right, hustle 20px"}
+              .verticalCenterWrapper
+                .verticalCenter
+                  %img{:alt => "", :height => "auto", :src => "img/home/IMG3rdSection.png", :width => "115%"}/
+      #footer.footer.nimble
+        .container
+          .row
+            .col-sm-4{"data-sr" => "wait 0.1s, enter left, hustle 20px"}
+              %img{:alt => "", :height => "38", :src => "img/home/Footerlogo.png", :width => "258"}/
+            .col-sm-8.text-right
+              %ul.list-inline
+                %li{"data-sr" => "wait 0.1s, enter right, hustle 20px"}
+                  %a{:href => ""} Help
+                %li{"data-sr" => "wait 0.15s, enter right, hustle 20px"}
+                  %a{:href => ""} Docs
+                %li{"data-sr" => "wait 0.2s, enter right, hustle 20px"}
+                  %a{:href => ""} Blog
+                %li{"data-sr" => "wait 0.25s, enter right, hustle 20px"}
+                  %a{:href => ""} Join us
+                %li{"data-sr" => "wait 0.3s, enter right, hustle 20px"}
+                  %a{:href => ""} About
+                %li{"data-sr" => "wait 0.35s, enter right, hustle 20px"}
+                  %a{:href => ""} Contact
+                %li{"data-sr" => "wait 0.4s, enter right, hustle 20px"}
+                  %a{:href => ""} Terms of Service
+                %li{"data-sr" => "wait 0.45s, enter right, hustle 20px"}
+                  %a{:href => ""} DMCA
+                %li{"data-sr" => "wait 0.5s, enter right, hustle 20px"}
+                  %a{:href => ""}
+                    %i.fa.fa-twitter
+                %li{"data-sr" => "wait 0.55s, enter right, hustle 20px"}
+                  %a{:href => ""}
+                    %i.fa.fa-facebook
+                %li{"data-sr" => "wait 0.6s, enter right, hustle 20px"}
+                  %a{:href => ""}
+                    %i.fa.fa-instagram
+                %li{"data-sr" => "wait 0.65s, enter right, hustle 20px"}
+                  %a{:href => ""}
+                    %i.fa.fa-github
+          .row
+            .col-sm-3{"data-sr" => "wait 0.1s, enter left, hustle 20px"}
+              %p 588 Broadway, Suite 503
+              %p New York, NY 10012
+            .col-sm-4{"data-sr" => "wait 0.2s, enter left, hustle 20px"}
+              %p © NimbleDroid 2015
+              %p Design & Artwork: www.svenkils.com
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    %script{:src => "assets/js/bootstrap.min.js"}
+    %script{:src => "assets/js/ie10-viewport-bug-workaround.js"}
+    %script{:src => "plugins/fullPage/jquery.fullPage.js", :type => "text/javascript"}
+    %script{:src => "plugins/fullPage/examples/examples.js", :type => "text/javascript"}
+    %script{:src => "plugins/scrollReveal/scrollReveal.js", :type => "text/javascript"}
+    :javascript
+      $(document).ready(function () {
+          window.sr = new scrollReveal();
+      });
