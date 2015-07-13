@@ -7,56 +7,88 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-    margin: 0
+    margin: 0;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+
+
+    min-width: 970px;
 }
 
 nav {
-    display: block
+    display: block;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+
+    color: #337ab7;
+    text-decoration: none
 }
 
 a:active, a:hover {
-    outline: 0
+    outline: 0;
+
+    color: #23527c;
+    text-decoration: underline
 }
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-size: 36px
 }
 
 img {
-    border: 0
+    border: 0;
+
+    vertical-align: middle
 }
 
 button {
     margin: 0;
     font: inherit;
-    color: inherit
-}
+    color: inherit;
 
-button {
-    overflow: visible
-}
 
-button {
-    text-transform: none
-}
+    overflow: visible;
 
-button {
+    text-transform: none;
+
     -webkit-appearance: button;
     cursor: pointer
 }
 
 button::-moz-focus-inner {
     padding: 0;
-    border: 0
+    border: 0;
+
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -117,60 +149,12 @@ button::-moz-focus-inner {
     box-sizing: border-box
 }
 
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-}
-
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
-}
-
-button {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none
-}
-
-a:focus, a:hover {
-    color: #23527c;
-    text-decoration: underline
-}
-
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
-img {
-    vertical-align: middle
-}
-
-h1 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit
-}
-
-h1 {
-    margin-top: 20px;
-    margin-bottom: 10px
-}
-
-h1 {
-    font-size: 36px
-}
 
 p {
     margin: 0 0 10px
@@ -314,12 +298,6 @@ ul {
     outline: 0;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
-}
-
-.nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none
 }
 
 .nav > li {
@@ -512,14 +490,10 @@ ul {
 /*
  * ---- Actual CSS used and created by Tony
  * Account for fixed navbar */
-body {
-    /*padding-top: 70px;*/
-    /*padding-bottom: 30px;*/
-}
 
 body,
 .navbar-fixed-top {
-    min-width: 970px;
+    min-width: 986px;
 }
 
 .no-padding{
@@ -530,15 +504,6 @@ body,
     background: red;
 }
 
-/* Don't let the lead text change font-size. */
-
-/* Finesse the page header spacing */
-
-/* Non-responsive overrides
- *
- * Utilize the following CSS to disable the responsive-ness of the container,
- * grid system, and navbar.
- */
 
 /* Reset the container */
 .container {
@@ -581,6 +546,7 @@ body,
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #ffffff;
     padding: 15px;
+    width: 0px;
 }
 
 .navbar-nav li,
